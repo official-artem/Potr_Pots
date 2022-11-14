@@ -1,7 +1,13 @@
+// utils
+@import "utils/reset.scss";
+@import "utils/normalize.scss";
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "utils/media-queires.scss";
 
-body {
-  background: $c-gray;
-}
+// blocks
+@import "blocks/page.scss";
+@import "blocks/grid.scss";
+@import "blocks/container.scss";
+@import "blocks/header.scss";
